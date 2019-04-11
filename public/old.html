@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="/favicon.ico">
+  <title>计算器JQuery版本</title>
+  <style>
+    body {
+      font-family: "Open Sans", sans-serif;
+      background-color: #4894d6;
+    }
+
+    body #calWrap {
+      background-color: #77889a;
+      border-radius: 23px;
+      padding: 2em 1em 1em 1em;
+      margin: auto;
+      width: 292px;
+      clear: both;
+      display: table;
+    }
+
+    body .top input {
+      height: 36px;
+      width: 90%;
+      font-size: 13px;
+      font-weight: bold;
+      border-radius: 4px;
+      margin: 0 0 14px 0;
+      border: 0;
+      padding: 0 1em;
+      box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    body #keys div {
+      cursor: pointer;
+      width: 66px;
+      height: 36px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 2em;
+      background: white;
+      border-radius: 3px;
+      box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+      margin: 0 7px 11px 0;
+      float: left;
+      transition: all 0.2s ease;
+    }
+
+    body #keys div:hover {
+      background-color: #d6d6d6;
+    }
+
+    body #keys .zero {
+      width: 138px !important;
+    }
+
+    body #keys .clear {
+      background-color: #ffd900 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <div id="calWrap">
+      <div class="top">
+        <input type="text">
+      </div>
+      <div id="keys">
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>+</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>-</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>*</div>
+        <div>0</div>
+        <div class="clear">c</div>
+        <div>=</div>
+        <div>/</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  </script>
+</body>
+
+</html>
